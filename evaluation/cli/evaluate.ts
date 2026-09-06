@@ -147,7 +147,7 @@ async function main(): Promise<void> {
       displayName: m.displayName,
       provider: m.provider,
       apiModel: m.apiModel,
-      temperature: m.temperature,
+      temperature: 'provider default (not overridden)',
       maxTokens: m.maxTokens
     })),
     generatedAt: new Date().toISOString()

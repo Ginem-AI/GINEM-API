@@ -123,7 +123,7 @@ See the `# Evaluation runner` block in `.env.example`. **Required** before a rea
 
 ## 5. Model configuration
 
-`evaluation/config/models.config.ts` — matches Table 3.10 exactly (`temperature=0.2`, `maxTokens=1024`, no fine-tuning, API integration). `evaluation/config/pricing.json` — matches Table 3.13 exactly (reference date August 2, 2026); **update this file before the final run** if provider rates change, don't hardcode them in the calculation logic (point 18).
+`evaluation/config/models.config.ts` — matches Table 3.10 (`maxTokens=1024`, no fine-tuning, API integration). No model gets a `temperature` override — every provider's own default applies uniformly across all three, since not every provider accepts (or supports the same range of) a custom value; see §10 for the full rationale. `evaluation/config/pricing.json` — matches Table 3.13 exactly (reference date August 2, 2026, except the `openai:gpt-5.6-luna` row — see its own updated date in the file); **update this file before the final run** if provider rates change, don't hardcode them in the calculation logic (point 18).
 
 ## 6. Output
 
