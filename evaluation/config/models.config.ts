@@ -20,10 +20,10 @@ export interface EvalModelConfig {
 
 export const evalModels: EvalModelConfig[] = [
   {
-    key: 'openai:gpt-5.6-terra',
-    displayName: 'GPT-5.6 Terra',
+    key: 'openai:gpt-5.6-luna',
+    displayName: 'GPT-5.6 Luna',
     provider: 'openai',
-    apiModel: process.env.EVAL_OPENAI_MODEL ?? 'gpt-5.6-terra',
+    apiModel: process.env.EVAL_OPENAI_MODEL ?? 'gpt-5.6-luna',
     temperature: 0.2,
     maxTokens: 1024
   },
