@@ -1,4 +1,0 @@
-Model LLM,Total Input Token,Total Output Token,Rata-Rata Token/Perintah,Total Biaya API (USD),Rata-Rata Biaya/Perintah (USD)
-GPT-5.6 Luna,26857,323,5436,0.01,0
-Claude Sonnet 5,52126,862,10597.6,0.11,0.02
-DeepSeek-V4-Flash,52433,1524,10791.4,0.01,0
