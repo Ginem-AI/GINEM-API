@@ -1,0 +1,2 @@
+model,category,totalTests,toolAccuracyPct,parameterAccuracyPct,structureValidPct
+GPT-5.6 Terra,simple,1,0,0,0
